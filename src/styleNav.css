@@ -21,7 +21,7 @@ nav {
     padding-right: 5px;
 }
 .logo {
-    color: #fffac8;
+    color: #c3b441;
     letter-spacing: 4px;
     font-size: 28px; 
     display: inline-flex;
@@ -37,7 +37,7 @@ nav {
     list-style: none;
 }
 .nav-links a{
-    color: #fffac8;
+    color: #c3b441;
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 15px;
@@ -52,7 +52,7 @@ nav {
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: #fffac8;
+    background-color: #c3b441;
     margin: 5px;
     transition: all 0.3s ease;
 }

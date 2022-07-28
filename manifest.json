@@ -3,7 +3,7 @@
     "short_name": "CulturesConnect",
     "description": "In order to embrace diversity, you must know diversity.",
     "start_url" : "./",
-    "background_color" : "#fff79f",
+    "background_color" : "#fff186",
     "theme_color" : "#9d4331",
     "display" : "standalone",
     "icons" : [
