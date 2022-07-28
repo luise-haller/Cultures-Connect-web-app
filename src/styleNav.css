@@ -23,14 +23,15 @@ nav {
 .logo {
     color: #fffac8;
     letter-spacing: 4px;
-    font-size: 25px; 
+    font-size: 28px; 
     display: inline-flex;
+    padding-right: 100px;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 45%;
 }
 .nav-links li {
     list-style: none;
@@ -38,9 +39,8 @@ nav {
 .nav-links a{
     color: #fffac8;
     text-decoration: none;
-    letter-spacing: 5px;
-    font-weight: bold;
-    font-size: 13px;
+    letter-spacing: 3px;
+    font-size: 15px;
 }
 
 /*So that the nav bar also fits on a smaller(mobile) screen*/
