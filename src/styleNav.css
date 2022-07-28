@@ -10,15 +10,23 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 17vh;
+    min-height: 15vh;
     background-color: #9d4331;
     font-family: 'Arima Madurai', cursive;
+}
+
+.resizeLogo{
+    width: 35px;
+    height: 35px;
+    padding-right: 5px;
 }
 .logo {
     color: #fffac8;
     letter-spacing: 4px;
-    font-size: 23px; 
+    font-size: 25px; 
+    display: inline-flex;
 }
+
 .nav-links {
     display: flex;
     justify-content: space-around;
