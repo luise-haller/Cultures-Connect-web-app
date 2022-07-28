@@ -1,20 +1,21 @@
 {
-    "name": "boredomNO",
-    "short_name": "boredomNO",
-    "start_url" : "./noboredom",
-    "background_color" : "#67b5c7",
-    "theme_color" : "#243f6e",
+    "name": "Cultures of Humanity",
+    "short_name": "Cultures of Humanity",
+    "description": "In order to embrace diversity, you must know diversity.",
+    "start_url" : "./",
+    "background_color" : "#fff79f",
+    "theme_color" : "#9d4331",
     "display" : "standalone",
     "icons" : [
         {
-            "src" : "images/logo192.png",
-            "sizes" : "192x192",
-            "type" : "image/png"
+            "src" : "need to add icon 192x192",
+            "sizes" : "128x128",
+            "type" : "image/ico"
         },
         {
-            "src" : "images/logo512.png",
-            "sizes" : "512x512",
-            "type" : "image/png"
+            "src" : "need to add icon 512x512",
+            "sizes" : "128x128",
+            "type" : "image/ico"
         }
     ]
 }

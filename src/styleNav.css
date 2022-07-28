@@ -11,26 +11,26 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 17vh;
-    background-color: #243f6e;
-    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #9d4331;
+    font-family: 'Arima Madurai', cursive;
 }
 .logo {
-    color: rgb(209, 209, 209);
-    letter-spacing: 5px;
-    font-size: 22px; 
+    color: #fffac8;
+    letter-spacing: 4px;
+    font-size: 23px; 
 }
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 61%;
+    width: 50%;
 }
 .nav-links li {
     list-style: none;
 }
 .nav-links a{
-    color: rgb(209, 209, 209);
+    color: #fffac8;
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-weight: bold;
     font-size: 13px;
 }
@@ -44,7 +44,7 @@ nav {
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: rgb(209, 209, 209);
+    background-color: #fffac8;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -63,7 +63,7 @@ nav {
         right: 0px;
         height: 85vh;
         top: 15vh;
-        background-color: #243f6e;
+        background-color: #9d4331;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -98,6 +98,7 @@ nav {
     }
 }
 
+/* transformation of the burger into an 'x' */
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px, 6px);
 }
