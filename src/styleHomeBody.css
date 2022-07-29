@@ -1,0 +1,10 @@
+/*Gets rid of all the already-there styling*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, rgba(255,0,0,0), #bca7a3);
+}
