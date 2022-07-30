@@ -21,6 +21,8 @@ nav {
 }
 .logo {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
     color: #464646;
     letter-spacing: 4px;
     font-size: 30px; 
@@ -39,6 +41,8 @@ nav {
 .nav-links a{
     color: #464646;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
     font-size: 16px;
     text-decoration: none;
     letter-spacing: 3px;
