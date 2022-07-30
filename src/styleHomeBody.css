@@ -6,7 +6,7 @@
 }
 body {
     /* background-image: linear-gradient(to left, rgba(255,0,0,0), #f4e3a7); */
-    background-image: linear-gradient(to right, #ffecd0, #f9d199);
+    background-image: linear-gradient(to right, #ffecd0, #fbce90);
 }
 
 .container {
@@ -16,23 +16,27 @@ body {
 }
 .opener{
     position: absolute;
-    top: 25%;
+    top: 7%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 1000px;
     /* font */
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 30px;
+    color: #464646;
 }
 .openerPurpose{
     position: absolute;
-    top: 50%;
+    top: 26%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
+    width: 1400;
     /* font*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 25px;
+    color: #464646;
 }
 
 
