@@ -47,32 +47,50 @@
         </nav>
         <script src="src/nav.js"></script>
 
+        <script src="src/showMore.js"></script>
+
         <div class="container">
             <!-- background img for the home page -->
             <img src="img/womenCarryingWater.png" class="starterImg" alt="Women Carrying Water" style="width:100%;">
 
-            <div class="opener">
+            <p class="opener">
                 Did you know that more than 
-                <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 30px;">
+                <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 30px; font-style: italic;">
                     3,800
-                </span> 
-                cultures exist worldwide? That’s a lot!
-            </div>
+                </span>cultures exist worldwide? That’s a lot!<br>
+                <span id="points">...</span>
 
-            <div class="openerProblem">
-                In contrast, the average person only knows around
-                <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px;">
-                    3.2%
+                <span id="moreText">
+                    <span style=" font-size: 25px;">
+                        In contrast, the average person only knows around
+                        <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
+                            3.2%
+                        </span>
+                            of these cultures. This frequently leads to individuals having an alienated view of people with cultures unbeknownst to them, prompting a
+                        <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
+                            less
+                        </span>compassionate world.
+                    </span>
                 </span>
-                of these cultures. This issue frequently leads to individuals having an alienated view of people with cultures unbeknownst to them, prompting a
-                <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px;">
-                    less
-                </span> compassionate world.
-            </div>
+            </p>
 
-            <div class="openerPurpose">
-                CulturesConnect hopes to solve this problem by offering an all-around tool to anyone wishing to learn more about the existing cultures, especially non-mainstream ones.
-            </div>
+            <button onclick="toggleText() " id="textButton">
+                Show More
+            </button>
+
+
+
+
+
+
+            <p class="purpose">
+                <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
+                    CulturesConnect
+                </span> hopes to solve this problem by offering an all-around tool to anyone wishing to learn more about the existing cultures, especially
+                <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
+                    non-mainstream
+                </span>ones.
+            </p>
             
         </div>
 

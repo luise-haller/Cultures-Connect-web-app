@@ -16,29 +16,41 @@ body {
 }
 .opener{
     position: absolute;
-    top: 7%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
-    line-height: 1.3;
+    line-height: 1.5;
     /* font */
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 30px;
     color: #464646;
 }
-.openerProblem{
+#moreText {
+    display: none;
+}
+
+#textButton {
     position: absolute;
-    top: 17%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1200px;
+}
+
+.purpose{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
     line-height: 1.5;
     /* font*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 25px;
     color: #464646;
+
 }
 
 
