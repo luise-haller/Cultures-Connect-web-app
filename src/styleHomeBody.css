@@ -4,21 +4,35 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 body {
-    
     /* background-image: linear-gradient(to left, rgba(255,0,0,0), #f4e3a7); */
     background-image: linear-gradient(to right, #ffecd0, #f9d199);
 }
 
-/* laptop full screen */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.opener{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* font+style */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+
+/* adjust size for mobile & tablet */
 @media screen and (max-width: 1440px) {
     .starterImg{
         width: 1440px;
         height: 960px;
         opacity: 0.3;
     }
-
 }
 
 
