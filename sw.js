@@ -1,5 +1,5 @@
-//Installs the cache
-//under "Application" then "Cache" and then "Cache Storage". It should have the "static" cache under that.
+// Installs the cache
+// under "Application" then "Cache" and then "Cache Storage". It should have the "static" cache under that.
 self.addEventListener("install", e => {
     e.waitUntil(
         caches.open("static").then(cache => {

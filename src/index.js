@@ -1,4 +1,4 @@
-//Acitivates the service worker
+// //Acitivates the service worker
 if ("serviceWorker" in navigator) {
 
     navigator.serviceWorker.register("sw.js")
@@ -11,7 +11,7 @@ if ("serviceWorker" in navigator) {
         console.log(error);
     });
 } 
-//If service worker isn't able to be activated, then displays this message.
+// //If service worker isn't able to be activated, then displays this message.
 else {
     console.log('Application is not supported.');
 }

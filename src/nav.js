@@ -1,28 +1,28 @@
-//for mobile screen: burger menu slides into screen when the burger symbol is clicked
-const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
-    const navLinks = document.querySelectorAll('.nav-links li');
+    //for mobile screen: burger menu slides into screen when the burger symbol is clicked
+    const navSlide = () => {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        const navLinks = document.querySelectorAll('.nav-links li');
 
-    
-    burger.addEventListener('click', () => {
-        //toggle nav
-        nav.classList.toggle('nav-active');
+        
+        burger.addEventListener('click', () => {
+            //toggle nav
+            nav.classList.toggle('nav-active');
 
-        //animate links
-        navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = ``
-            } else {
-                link.style.animation = `navLinkFade 0.5s ease forwards ${index/7 + 0.7}s`;
-            }
+            //animate links
+            navLinks.forEach((link, index) => {
+                if (link.style.animation) {
+                    link.style.animation = ``
+                } else {
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index/7 + 0.7}s`;
+                }
+            });
+            //Burger Animation
+            burger.classList.toggle('toggle');
+
         });
-        //Burger Animation
-        burger.classList.toggle('toggle');
 
-    });
-
-}
-navSlide();
+    }
+    navSlide();
 
 
