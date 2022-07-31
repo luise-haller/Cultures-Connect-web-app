@@ -16,7 +16,7 @@ body {
 }
 .opener{
     position: absolute;
-    top: 15%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
@@ -24,23 +24,34 @@ body {
     /* font */
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 35px;
     color: #464646;
 }
 #moreText {
     display: none;
 }
-
-#textButton {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#showMoreTextButton {
+    /* position: relative;
+    vertical-align: bottom;
+    top: 31%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #464646;
+    background-color: #e32276;
+    opacity: 0.6;
+    border: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
 }
-
 .purpose{
     position: absolute;
-    top: 70%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
