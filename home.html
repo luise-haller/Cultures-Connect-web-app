@@ -47,7 +47,7 @@
         </nav>
         <script src="src/nav.js"></script>
 
-        <script src="src/showMore.js"></script>
+        <!-- <script src="src/showMore.js"></script> -->
 
         <div class="container">
             <!-- background img for the home page -->
@@ -59,7 +59,11 @@
                     3,800
                 </span>cultures exist worldwide? That’s a lot!
                 <span id="points">...</span><br>
-
+                <!-- button for expanding the problem -->
+                <button onclick="toggleText() " id="moreButton">
+                    More
+                </button>  
+                
                 <span id="moreText">
                     <span style="width:1400px; font-size: 25px;">
                         In contrast, the average person roughly knows only
@@ -77,9 +81,7 @@
                         are the norms.
                     </span>
                 </span><br>
-                <button onclick="toggleText() " id="showMoreTextButton">
-                    Show More
-                </button>    
+                  
             </p>
             
             <p class="purpose">
