@@ -19,6 +19,7 @@
     </head>
     <body>
         <script src="src/index.js"></script>
+        <!-- nav bar -->
         <nav>
             <div class="logo">
                 <img class="resizeLogo" src="/img/culturesymbol.ico" alt="logo">
@@ -39,6 +40,7 @@
                 </li>
                 <!-- <input type="text" placeholder="Search..."> -->
             </ul>
+            <!-- burger for mobile screens -->
             <div class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -47,42 +49,45 @@
         </nav>
         <script src="src/nav.js"></script>
 
-        <!-- <script src="src/showMore.js"></script> -->
-
+        <script src="src/moreButton.js"></script> 
         <div class="container">
             <!-- background img for the home page -->
             <img src="img/womenCarryingWater.png" class="starterImg" alt="Women Carrying Water" style="width:100%;">
 
+            <!-- Initially displayed -->
             <p class="opener">
                 Did you know that more than 
                 <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 35px; font-style: italic;">
                     3,800
-                </span>cultures exist worldwide? That’s a lot!
+                </span>
+                cultures exist worldwide? That’s a lot!
                 <span id="points">...</span><br>
-                <!-- button for expanding the problem -->
-                <button onclick="toggleText() " id="moreButton">
-                    More
-                </button>  
-                
-                <span id="moreText">
-                    <span style="width:1400px; font-size: 25px;">
-                        In contrast, the average person roughly knows only
-                        <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
-                            3.2%
-                        </span>
-                            of these cultures, resulting in an alienated view of people with cultures unbeknownst to them. In return, it produces a world where
-                        <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
-                            hatred
-                        </span>
-                        and
-                        <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
-                            disunity
-                        </span>
-                        are the norms.
+
+                <!-- Expanded one the "more" button is clicked -->
+                <span id="moreText" style="font-size: 25px; width: 1400px;">
+                    In contrast, the average person knows roughly
+                    <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
+                        3.2%
                     </span>
+                        of these cultures, resulting in an alienated view of people with cultures unbeknownst to them. In return, it produces a world where
+                    <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
+                        hatred
+                    </span>
+                    and
+                    <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
+                        disunity
+                    </span>
+                    are the norms.
                 </span><br>
-                  
+                
+                <!-- button for expanding the problem -->
+                <button onclick="toggleOpener()" id="moreButton">
+                    More
+                </button>
             </p>
+
+            
+        
             
             <p class="purpose">
                 <span style="color: #e32276; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 25px; font-style: italic;">
@@ -94,6 +99,7 @@
             </p>
             
         </div>
+        
 
         
         
