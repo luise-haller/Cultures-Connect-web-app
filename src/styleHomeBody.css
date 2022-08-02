@@ -4,22 +4,35 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     /* background-image: linear-gradient(to left, rgba(255,0,0,0), #f4e3a7); */
     background-image: linear-gradient(to right, #ffecd0, #fbce90);
 }
+.starterImg {
+    opacity: 0.3;
+    margin-top: 100px;
+}
 
-.container {
+.container1 {
     position: relative;
     text-align: center;
+    justify-content: center;
     color: white;
 }
+section {
+    min-height: 85vh;
+}
+
+/* opening hook + the problem extends if clicked on the "read more" button */
 .opener{
     position: absolute;
-    top: 23%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1000px;
+    width: 1100px;
     line-height: 1.5;
     /* font */
     font-family: 'Montserrat', sans-serif;
@@ -33,24 +46,41 @@ body {
 #moreButton {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 15px;
-    color: #464646;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-transform: lowercase;
+    color: #343333;
     background-color: #e32276;
-    opacity: 0.6;
+    opacity: 0.8;
     border: none;
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.1 ease 0s;
+    cursor: pointer;
 }
+#moreButton:hover {
+    color: #464646;
+    background-color: #e32276;
+    box-shadow: 0px 5px 5px #464646;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
 .purpose{
-    position: absolute;
-    top: 68%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1000px;
     line-height: 1.5;
+    align-items: center;
+    justify-content: center;
     /* font*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -59,19 +89,47 @@ body {
 
 }
 
-
-
-
-
-
-
-
-/* adjust size for mobile & tablet */
-@media screen and (max-width: 1440px) {
-    .starterImg{
-        width: 1440px;
-        height: 960px;
-        opacity: 0.3;
+.scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid #464646;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid #464646;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::after{
+    top: 30%;
+    animation-delay: .3s;
+}
+@keyframes scroll-down{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        top: 90%;
     }
 }
 

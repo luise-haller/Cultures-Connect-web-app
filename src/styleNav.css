@@ -4,6 +4,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #ffdeac, #fac67d);
+    opacity: 2;
+    
+
+}
+
 
 /*Styles the Nav Bar*/
 nav {
