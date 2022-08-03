@@ -11,6 +11,9 @@ body {
     /* background-image: linear-gradient(to left, rgba(255,0,0,0), #f4e3a7); */
     background-image: linear-gradient(to right, #ffecd0, #fbce90);
 }
+section {
+    min-height: 85vh;
+}
 .starterImg {
     opacity: 0.3;
     margin-top: 100px;
@@ -21,9 +24,6 @@ body {
     text-align: center;
     justify-content: center;
     color: white;
-}
-section {
-    min-height: 85vh;
 }
 
 /* opening hook + the problem extends if clicked on the "read more" button */
@@ -67,46 +67,6 @@ section {
     background-color: #e32276;
     box-shadow: 0px 5px 5px #464646;
 }
-
-.container2 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 100vh;
-}
-
-.purpose{
-    width: 950px;
-    line-height: 1.5;
-    margin-bottom: 300px;
-    /* font*/
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    color: #464646;
-}
-.howItWorksButton {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    text-transform: lowercase;
-    color: #343333;
-    background-color: #e32276;
-    opacity: 0.8;
-    border: none;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 20px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.1 ease 0s;
-    cursor: pointer;
-}
-
 /* scroll down button */
 .scroll-down {
     height: 50px;
@@ -152,5 +112,55 @@ section {
         top: 90%;
     }
 }
+/* misson statement + 'how it works' button */
+.container2 {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    min-height: 100vh;
+}
+
+.purpose{
+    width: 950px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #464646;
+    line-height: 1.5;
+}
+.howItWorksButton {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    text-transform: lowercase;
+    color: #343333;
+    background-color: #e32276;
+    opacity: 0.8;
+    /* spacing */
+    border: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    /* effects */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.1 ease 0s;
+    cursor: pointer;
+}
+
+
 
 
