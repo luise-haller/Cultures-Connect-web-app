@@ -78,9 +78,9 @@ section {
 }
 
 .purpose{
+    width: 950px;
     line-height: 1.5;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 300px;
     /* font*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -89,6 +89,7 @@ section {
 
 }
 
+/* scroll down button */
 .scroll-down {
     height: 50px;
     width: 30px;
@@ -117,6 +118,7 @@ section {
     top: 30%;
     animation-delay: .3s;
 }
+/* animating scroll down button */
 @keyframes scroll-down{
     0%{
         opacity: 0;
