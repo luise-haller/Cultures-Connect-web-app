@@ -7,3 +7,21 @@ body {
     background-image: linear-gradient(to right, #ffecd0, #fbce90);
 }
 
+.container {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#opener {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 28px;
+    color: #464646;
+}
