@@ -27,14 +27,14 @@ nav {
     padding-bottom: 10px;
 }
 .logo {
+    display: inline-flex;
+    padding-right: 100px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: italic;
     color: #464646;
     letter-spacing: 4px;
     font-size: 30px; 
-    display: inline-flex;
-    padding-right: 100px;
 }
 
 .nav-links {
