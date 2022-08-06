@@ -9,14 +9,15 @@ body {
 
 .container {
     position: relative;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     color: white;
 }
 
-#opener {
+.opener {
     position: absolute;
-    top: 30%;
+    /* PROBELM: why do you have to enter '2000%' now to get it center? */
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
