@@ -3,21 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body {
-    background-image: linear-gradient(to right, #ffecd0, #fbce90);
-}
 
 .container {
-    position: relative;
     text-align: center;
     justify-content: center;
     color: white;
 }
-
+body {
+    background-image: linear-gradient(to right, #ffecd0, #fbce90);
+}
 .opener {
     position: absolute;
-    /* why does it need to be '2000%' now to be centered? */
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;

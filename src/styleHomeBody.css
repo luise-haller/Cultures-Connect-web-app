@@ -19,7 +19,7 @@ section {
 }
 
 .container1 {
-    position: relative;
+    /* position: relative; */
     text-align: center;
     justify-content: center;
     color: white;
