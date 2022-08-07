@@ -16,7 +16,7 @@ body {
 
 .opener {
     position: absolute;
-    /* PROBELM: why do you have to enter '2000%' now to get it center? */
+    /* why does it need to be '2000%' now to be centered? */
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);

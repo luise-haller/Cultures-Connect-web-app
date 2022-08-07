@@ -19,7 +19,6 @@ nav {
     align-items: center;
     min-height: 14vh;
 }
-
 .resizeLogo{
     width: 45px;
     height: 45px;
@@ -36,7 +35,6 @@ nav {
     letter-spacing: 4px;
     font-size: 30px; 
 }
-
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -44,6 +42,7 @@ nav {
 }
 .nav-links li {
     list-style: none;
+    
 }
 .nav-links a{
     color: #464646;
