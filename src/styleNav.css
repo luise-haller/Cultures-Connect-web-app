@@ -10,7 +10,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right, #ffdeac, #fac67d);
+    background-color: #fdc98eea;
 }
 
 /*Styles the Nav Bar*/
