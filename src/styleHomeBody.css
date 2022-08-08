@@ -4,31 +4,34 @@
     padding: 0px;
     box-sizing: border-box;
 }
-html{
+html{    
     scroll-behavior: smooth;
 }
-body {
-    background-image: linear-gradient(to right, #ffecd0, #fbce90);
-}
 section {
-    min-height: 85vh;
+    min-height: 100vh;
 }
-.starterImg {
-    opacity: 0.3;
-    margin-top: 100px;
+/* background image of container1 */
+.container1::before {
+    content: "";
+    background-image: url('https://images.pexels.com/photos/6820064/pexels-photo-6820064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.35;
 }
-
 .container1 {
-    /* position: relative; */
+    align-items: center;
     text-align: center;
     justify-content: center;
-    color: white;
 }
 
 /* opening hook + the problem extends if clicked on the "read more" button */
 .opener{
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1100px;
