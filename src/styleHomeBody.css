@@ -42,6 +42,13 @@ section {
     font-size: 40px;
     color: #343333;
 }
+#numOpener {
+    color: #e32276;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: italic;
+}
 #moreText {
     display: none;
 }
@@ -183,6 +190,11 @@ section {
 @media screen and (max-width: 1024px){
     .opener {
         width: 80vw;
+        font-size: 30px;
+    }
+    .purpose {
+        width: 80vw;
+        font-size: 40px;
     }
 
 }

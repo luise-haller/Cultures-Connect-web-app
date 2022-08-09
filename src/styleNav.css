@@ -72,6 +72,7 @@ nav {
 @media screen and (max-width: 1024px) {
     .nav-links {
         width: 80%;
+        background-color: #fdc98ecf;
     }
 }
 /* for mobile screens */
@@ -79,11 +80,14 @@ nav {
     body {
         overflow-x: hidden;
     }
+    nav {
+        min-height: 10vh;
+    }
     .nav-links {
         position: absolute;
         right: 0vh;
-        height: 85vh;
-        top: 15vh;
+        height: 90vh;
+        top: 10vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -91,6 +95,7 @@ nav {
         width: 25%;
         transform: translateX(100%);
         transition: transform 0.01s ease-in;
+        background-color: #fdc98ecf;
     }
     .nav-links li{
         opacity: 0;
