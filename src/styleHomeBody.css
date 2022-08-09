@@ -20,7 +20,7 @@ section {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.35;
+    opacity: 0.3;
 }
 .container1 {
     align-items: center;
@@ -40,7 +40,7 @@ section {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 40px;
-    color: #464646;
+    color: #343333;
 }
 #moreText {
     display: none;
@@ -65,15 +65,15 @@ section {
     cursor: pointer;
 }
 #moreButton:hover {
-    color: #464646;
+    color: #343333;
     background-color: #e32276;
-    box-shadow: 0px 5px 5px #464646;
+    box-shadow: 0px 5px 5px #343333;
 }
 /* scroll down button */
 .scroll-down {
     height: 50px;
     width: 30px;
-    border: 2px solid #464646;
+    border: 2px solid #343333;
     position: absolute;
     left: 49%;
     bottom: 20px;
@@ -86,7 +86,7 @@ section {
     position: absolute;
     top: 20%;
     left: 50%;
-    border: 2px solid #464646;
+    border: 2px solid #343333;
     height: 10px;
     width: 10px;
     transform: translate(-50%, -100%) rotate(45deg);
@@ -115,9 +115,21 @@ section {
     }
 }
 /* misson statement + 'how it works' button */
+.container2::before {
+    content: "";
+    background-image: url('https://images.pexels.com/photos/139319/pexels-photo-139319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
 .container2 {
     position: relative;
     text-align: center;
+    align-items: center;
     justify-content: center;
     color: white;
     min-height: 100vh;
@@ -126,19 +138,19 @@ section {
 .purpose{
     width: 950px;
     position: absolute;
-    top: 45%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* font*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 32px;
-    color: #464646;
+    color: #343333;
     line-height: 1.5;
 }
 .howItWorksButton {
     position: absolute;
-    top: 70%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* font */
@@ -163,9 +175,16 @@ section {
     cursor: pointer;
 }
 .howItWorksButton:hover {
-    color: #464646;
+    color: #343333;
     background-color: #e32276;
-    box-shadow: 0px 5px 5px #464646;
+    box-shadow: 0px 5px 5px #343333;
+}
+
+@media screen and (max-width: 1024px){
+    .opener {
+        width: 80vw;
+    }
+
 }
 
 
