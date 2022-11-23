@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container::before{
+    content: "";
+    background-image: url('https://images.pexels.com/photos/301614/pexels-photo-301614.jpeg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.container {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.aboutText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #464646;
+    letter-spacing: 1px;
+}
