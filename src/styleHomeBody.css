@@ -44,6 +44,8 @@ section {
 }
 #moreText {
     display: none;
+    font-size: 22px;
+    line-height: 1;
 }
 #moreButton {
     font-family: 'Montserrat', sans-serif;
@@ -194,6 +196,11 @@ section {
     .opener {
         width: 80vw;
         font-size: 30px;
+    }
+    #moreText {
+        display: none;
+        font-size: 17px;
+        line-height: 0.1;
     }
     .purpose {
         width: 80vw;

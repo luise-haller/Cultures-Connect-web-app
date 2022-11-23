@@ -5,25 +5,116 @@
 }
 .container::before{
     content: "";
-    background-image: url('https://images.pexels.com/photos/301614/pexels-photo-301614.jpeg');
+    background-color: #fdc98ecf;
     background-size: cover;
     position: absolute;
     top: 0px;
     right: 0px;
-    bottom: 0px;
+    bottom: -140px;
     left: 0px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .container {
     align-items: center;
     text-align: center;
     justify-content: center;
+    
 }
-.aboutText{
+.aboutTitle{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #464646;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 25px;
     line-height: 1.5;
+    font-weight: 700;
+}
+.aboutText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.8;
     color: #464646;
     letter-spacing: 1px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.aboutFounderTitle{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #464646;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.aboutFounderText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #464646;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 106%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1100px) {
+    .aboutTitle{
+        font-size: 21px;
+    }
+    .aboutText{
+        font-size: 12px;
+    }
+    .aboutFounderTitle{
+        font-size: 21px;
+    }
+    .aboutFounderText{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 830px) {
+    .aboutTitle{
+        font-size: 18px;
+    }
+    .aboutText{
+        font-size: 10px;
+    }
+    .aboutFounderTitle{
+        font-size: 18px;
+    }
+    .aboutFounderText{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .container::before{
+        bottom: -270px;
+    }
+    .aboutTitle{
+        font-size: 17px;
+        top: 18%;
+        
+    }
+    .aboutText{
+        font-size: 10px;
+        top: 60%;
+    }
+    .aboutFounderTitle{
+        font-size: 17px;
+        top: 102%;
+    }
+    .aboutFounderText{
+        font-size: 10px;
+        top: 120%;
+    }
 }
