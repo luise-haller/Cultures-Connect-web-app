@@ -9,6 +9,7 @@
         <link rel="icon" href="/img/culturesymbol.ico">
         <link rel="stylesheet" href="src/styleNav.css">
         <link rel="stylesheet" href="src/styleHomeBody.css">
+        <link rel="stylesheet" href="src/styleDailyCultureGem.css">
         <link rel="manifest" href="manifest.json">
         <link rel="apple-touch-icon" href="img/CulturesConnectLogo192.png">
         
@@ -55,6 +56,45 @@
     </header>
 
     <body>
-        
+        <div class="container">
+            <img src="img/grass-with-masks.jpg" class="starterImg" alt="Masks laying on top of untouched grass." style="width:100%; height: 100%;">
+            <table id="entries-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Daily Culture Fact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Your entries will be added here dynamically using JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    
+        <script>
+            // data
+            const entries = [
+                { date: 'Sept 2nd, 2023', entry: 'The Rungus people of Sabah, Malaysia celebrate the new year (according to their traditional calendar) with a festival called Magahau.' },
+                { date: 'Sept 1st, 2023', entry: 'In Tabitan culture, Lhamo is a type of folk opera that mixes chants, dances, and songs. It is the closest equivilant to Western opera in the Asian sphere.' },
+                // Add more entries here
+            ];
+    
+            // Get the table body element
+            const tbody = document.querySelector('tbody');
+    
+            // Sort entries by date in descending order (most recent first)
+            entries.sort((a, b) => new Date(b.date) - new Date(a.date));
+    
+            // Populate the table with entries
+            entries.forEach(entry => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${entry.date}</td>
+                    <td>${entry.entry}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        </script>
     </body>
+    
 
