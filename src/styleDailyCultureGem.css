@@ -1,0 +1,36 @@
+.container {
+    position: relative; 
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/grass-with-masks.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    opacity: 0.80; 
+    z-index: -1;
+}
+
+#entries-table {
+    position: absolute; 
+    top: 50%; /* Adjust the top position as needed to vertically center the table */
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.75); 
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+#entries-table th,
+#entries-table td {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 8px;
+    text-align: left;
+}
+
+#entries-table th {
+    background-color: #f2f2f2;
+}
